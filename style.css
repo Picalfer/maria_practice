@@ -33,6 +33,12 @@ header {
     margin-right: 250px;
 }
 
+.fa {
+    height: 20px;
+    vertical-align: middle;
+    margin-left: -245px;
+}
+
 .input_search {
     width: 235px;
     height: 40px;
@@ -50,7 +56,6 @@ header {
     margin: 20px;
     color: #FFF;
     font-size: 20px;
-    
     text-decoration: none;
 }
 
@@ -119,24 +124,28 @@ header {
 
 .promo_right_section {
     width: 70%;
+    overflow: hidden;
 }
 
 .promo_skew_text {
     margin: 0 auto;
-    width: 600px;
+    width: auto;
     color: #FFF;
     text-align: center;
     font-size: 48px;
-    line-height: 61.317px;
+    line-height: 100px;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
 }
 
-.row {
+.frames_img {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
 }
 
 .column {
@@ -148,60 +157,12 @@ header {
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-}
-
-img {
     width: 100%;
 }
 
-
-.frames_image {
-    display: flex;
-    flex-direction: row;
-}
-
-.promo_image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 20px;
-    border-radius: 10px;
-    display: inline-block;
-}
-
-.img1 {
-    background-image: url("img/promo/1.png");
-    width: 590px;
-    height: 310px;
-}
-
-.img2 {
-    background-image: url("img/promo/2.png");
-    width: 163.208px;
-    height: 246.381px;
-}
-
-.img3 {
-    background-image: url("img/promo/3.png");
-    width: 174.13px;
-    height: 126.589px;
-}
-
-.img4 {
-    background-image: url("img/promo/4.png");
-    width: 231.807px;
-    height: 149.895px;
-
-}
-
-.img5 {
-    background-image: url("img/promo/5.png");
-    width: 151.542px;
-    height: 150.948px;
-}
-
-.img6 {
-    background-image: url("img/promo/6.png");
-    width: 355.396px;
-    height: 279.107px;
+.tours {
+    height: 200px;
+    width: 90%;
+    margin: 50px auto;
+    border: 1px solid black;
 }

@@ -41,6 +41,7 @@
     font-size: 22px;
     text-decoration: underline;
     margin-bottom: 15px;
+    display: block;
 }
 
 .case_location {

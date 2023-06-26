@@ -162,7 +162,81 @@ header {
 
 .tours {
     height: 200px;
-    width: 90%;
-    margin: 50px auto;
-    border: 1px solid black;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.city {
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #CDCDCD;
+    background: #FFF;
+    width: 228px;
+    height: 52px;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 18px;
+}
+
+.city a {
+    color: #2A90CB;
+}
+
+.city p {
+    display: inline-block;
+    line-height: 52px;
+    margin-left: 15px;
+}
+
+.bar_info {
+    border-radius: 0px 10px 10px 10px;
+    background: #fff;
+    width: 100%;
+    height: 75px;
+    border: 1px solid #CDCDCD;
+    display: flex;
+}
+
+.bar_info_item {
+    width: 20%;
+    padding: 10px;
+    height: 100%;
+    border-right: 1px solid #CDCDCD;
+}
+
+.bar_info_item img {
+    width: 25px;
+    height: 32px;
+    float: left;
+    margin: 10px;
+}
+
+.hint_text {
+    color: #95827F;
+    font-size: 16px;
+}
+
+.city_text {
+    margin-top: 5px;
+    color: #000;
+    font-size: 18px;
+}
+
+.bar_info_item_end {
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    background: linear-gradient(90deg, #1DE1CA 0%, #59F167 100%);
+}
+
+.bar_info_item_end a {
+    line-height: 55px;
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
 }

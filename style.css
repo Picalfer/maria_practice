@@ -240,3 +240,93 @@ header {
     text-align: center;
     margin: auto;
 }
+
+.sales_section {}
+
+.section_title {
+    color: #18181B;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.sale_card {
+    background: linear-gradient(180deg, rgba(42, 217, 229, 0.31) 0%, rgba(87, 241, 108, 0.31) 22.19%, rgba(27, 205, 65, 0.20) 28.96%, rgba(42, 229, 183, 0.00) 100%);
+    width: 318px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.stars {
+    margin: auto;
+    background-image: url("img/icons/star.png");
+    background-repeat: repeat-x;
+    background-size: 39px;
+    width: 71%;
+    background-position: center;
+    height: 50px;
+}
+
+.card_title {
+    color: #000;
+    font-size: 22px;
+
+}
+
+.card_desc {
+    color: #95827F;
+    font-size: 20px;
+}
+
+.mini_bar {
+    width: 25%;
+    border: none;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.bar_info_mini {
+    background: none;
+    border: none;
+}
+
+.mini_bar p {
+    color: #000;
+    font-size: 16px;
+}
+
+.mini_bar img {
+    width: 25px;
+    height: 25px;
+}
+
+.price_card {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 20px;
+}
+
+.sale_card a {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 20.5px;
+    background: #55F06E;
+    color: #000;
+    font-size: 20px;
+    width: 175px;
+    line-height: 41px;
+    height: 41px;
+    text-decoration: none;
+    letter-spacing: 2.1px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

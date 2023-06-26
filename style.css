@@ -25,6 +25,11 @@ header {
     height: 95%;
 }
 
+.footer_logo {
+    height: 79px;
+    width: 370px;
+}
+
 .header_elements {
     width: auto;
     height: 100%;
@@ -241,7 +246,10 @@ header {
     margin: auto;
 }
 
-.sales_section {}
+.section {
+    padding: 50px auto;
+    text-align: center;
+}
 
 .section_title {
     color: #18181B;
@@ -328,5 +336,222 @@ header {
 .cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section_feeds {
+    border-top: 5px solid black;
+    padding-top: 40px;
+}
+
+.section_desc {
+    color: #52525B;
+    text-align: center;
+    font-size: 32px;
+    line-height: 26px;
+}
+
+.feeds_container {
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    width: 70%;
+    height: 337px;
+}
+
+.feeds_bg {
+    background: linear-gradient(89deg, #C1FBDE 0%, #CAD8FB 27.40%, #E0C5F2 52.40%, #FBD4C5 77.71%, #F6F8D0 100%);
+    width: 100%;
+    height: 100%;
+    background-size: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.feed_card {
+    background-color: rgb(254, 255, 246);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 30%;
+    padding: 13px;
+    height: 262px;
+    box-shadow: -5px 4px 0px rgba(107, 103, 103, 0.205);
+}
+
+.feed_card img {
+    display: block;
+    width: 25%;
+    margin-bottom: 10px;
+}
+
+.feed_text {
+    color: #52525B;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 17.5px;
+}
+
+.feed_name {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+}
+
+.feed_name p {
+    line-height: 40px;
+}
+
+.feed_name img {
+    height: 40px;
+    width: 40px;
+}
+
+.subscribe {
+    padding-top: 50px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 189px;
+    background: linear-gradient(180deg, #21FF90 0%, rgba(233, 251, 242, 0.00) 100%);
+}
+
+.subscribe_title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+.subscribe_desc {
+    color: #95827F;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.subscribe_left_section {
+    width: 30%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 60px;
+}
+
+.subscribe_right_section {
+    float: right;
+    width: 35%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.hint_search_email_text {
+    color: #090914;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.additional_hint_text {
+    color: #64748B;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.additional_hint_text a {
+    color: #64748B;
+}
+
+.email_form {
+    display: flex;
+    padding: 5px;
+    flex-direction: row;
+}
+
+.email_form input {
+    width: 420.8px;
+    height: 54.947px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #CBD5E1;
+    background: #F8FAFC;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.email_form a {
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 9px;
+    background: #2563EB;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    display: flex;
+    width: 182px;
+    height: 44px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+footer {
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px;
+    height: 500px;
+    background-color: #18181B;
+}
+
+.footer_menu_item {
+    text-decoration: none;
+    color: #64748B;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.footer_menu_selected_item {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.footer_text {
+    margin-top: 15px;
+    display: block;
+    text-align: center;
+}
+
+.footer_number {
+    color: #EFEFEF;
+    text-align: center;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.footer_text_number {
+    margin-left: 10px;
+}
+
+.footer_right_section {
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }

@@ -265,7 +265,8 @@ header {
     width: 318px;
     padding: 20px;
     text-align: center;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 .stars {
@@ -563,4 +564,3 @@ footer {
     right: 30px;
     bottom: 30px;
 }
-

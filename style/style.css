@@ -555,3 +555,12 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
 }
+
+.to_up_btn {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    right: 30px;
+    bottom: 30px;
+}
+

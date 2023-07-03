@@ -262,8 +262,8 @@ header {
 
 .sale_card {
     background: linear-gradient(180deg, rgba(42, 217, 229, 0.31) 0%, rgba(87, 241, 108, 0.31) 22.19%, rgba(27, 205, 65, 0.20) 28.96%, rgba(42, 229, 183, 0.00) 100%);
-    width: 318px;
-    padding: 20px;
+    width: 18%;
+    padding: 2%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -476,10 +476,11 @@ header {
     display: flex;
     padding: 5px;
     flex-direction: row;
+    width: 90%;
 }
 
 .email_form input {
-    width: 420.8px;
+    width: 80%;
     height: 54.947px;
     flex-shrink: 0;
     border-radius: 12px;
@@ -502,7 +503,7 @@ header {
     line-height: 28px;
     letter-spacing: -0.2px;
     display: flex;
-    width: 182px;
+    width: 20%;
     height: 44px;
     padding: 16px;
     flex-direction: column;

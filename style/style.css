@@ -269,6 +269,10 @@ header {
     flex-direction: column;
 }
 
+.manage_book_img {
+    width: 100%;
+}
+
 .stars {
     margin: auto;
     background-image: url("img/icons/star.png");

@@ -1,0 +1,2461 @@
+@charset "UTF-8";
+
+.tv-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tv-container:after,
+.tv-container:before {
+    content: " ";
+    display: table
+}
+
+.tv-container:after {
+    clear: both
+}
+
+@media (min-width:600px) {
+    .tv-container {
+        width: 720px
+    }
+}
+
+@media (min-width:992px) {
+    .tv-container {
+        width: 940px
+    }
+}
+
+@media (min-width:1200px) {
+    .tv-container {
+        width: 1140px
+    }
+}
+
+.tv-container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tv-container-fluid:after,
+.tv-container-fluid:before {
+    content: " ";
+    display: table
+}
+
+.tv-container-fluid:after {
+    clear: both
+}
+
+.tv-row {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.tv-row:after,
+.tv-row:before {
+    content: " ";
+    display: table
+}
+
+.tv-row:after {
+    clear: both
+}
+
+.tv-col-lg-1,
+.tv-col-lg-2,
+.tv-col-lg-3,
+.tv-col-lg-4,
+.tv-col-lg-5,
+.tv-col-lg-6,
+.tv-col-lg-7,
+.tv-col-lg-8,
+.tv-col-lg-9,
+.tv-col-lg-10,
+.tv-col-lg-11,
+.tv-col-lg-12,
+.tv-col-md-1,
+.tv-col-md-2,
+.tv-col-md-3,
+.tv-col-md-4,
+.tv-col-md-5,
+.tv-col-md-6,
+.tv-col-md-7,
+.tv-col-md-8,
+.tv-col-md-9,
+.tv-col-md-10,
+.tv-col-md-11,
+.tv-col-md-12,
+.tv-col-sm-1,
+.tv-col-sm-2,
+.tv-col-sm-3,
+.tv-col-sm-4,
+.tv-col-sm-5,
+.tv-col-sm-6,
+.tv-col-sm-7,
+.tv-col-sm-8,
+.tv-col-sm-9,
+.tv-col-sm-10,
+.tv-col-sm-11,
+.tv-col-sm-12,
+.tv-col-xs-1,
+.tv-col-xs-2,
+.tv-col-xs-3,
+.tv-col-xs-4,
+.tv-col-xs-5,
+.tv-col-xs-6,
+.tv-col-xs-7,
+.tv-col-xs-8,
+.tv-col-xs-9,
+.tv-col-xs-10,
+.tv-col-xs-11,
+.tv-col-xs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.tv-col-xs-1,
+.tv-col-xs-2,
+.tv-col-xs-3,
+.tv-col-xs-4,
+.tv-col-xs-5,
+.tv-col-xs-6,
+.tv-col-xs-7,
+.tv-col-xs-8,
+.tv-col-xs-9,
+.tv-col-xs-10,
+.tv-col-xs-11,
+.tv-col-xs-12 {
+    float: left
+}
+
+.tv-col-xs-1 {
+    width: 8.33333%
+}
+
+.tv-col-xs-2 {
+    width: 16.66667%
+}
+
+.tv-col-xs-3 {
+    width: 25%
+}
+
+.tv-col-xs-4 {
+    width: 33.33333%
+}
+
+.tv-col-xs-5 {
+    width: 41.66667%
+}
+
+.tv-col-xs-6 {
+    width: 50%
+}
+
+.tv-col-xs-7 {
+    width: 58.33333%
+}
+
+.tv-col-xs-8 {
+    width: 66.66667%
+}
+
+.tv-col-xs-9 {
+    width: 75%
+}
+
+.tv-col-xs-10 {
+    width: 83.33333%
+}
+
+.tv-col-xs-11 {
+    width: 91.66667%
+}
+
+.tv-col-xs-12 {
+    width: 100%
+}
+
+.tv-col-xs-pull-0 {
+    right: auto
+}
+
+.tv-col-xs-pull-1 {
+    right: 8.33333%
+}
+
+.tv-col-xs-pull-2 {
+    right: 16.66667%
+}
+
+.tv-col-xs-pull-3 {
+    right: 25%
+}
+
+.tv-col-xs-pull-4 {
+    right: 33.33333%
+}
+
+.tv-col-xs-pull-5 {
+    right: 41.66667%
+}
+
+.tv-col-xs-pull-6 {
+    right: 50%
+}
+
+.tv-col-xs-pull-7 {
+    right: 58.33333%
+}
+
+.tv-col-xs-pull-8 {
+    right: 66.66667%
+}
+
+.tv-col-xs-pull-9 {
+    right: 75%
+}
+
+.tv-col-xs-pull-10 {
+    right: 83.33333%
+}
+
+.tv-col-xs-pull-11 {
+    right: 91.66667%
+}
+
+.tv-col-xs-pull-12 {
+    right: 100%
+}
+
+.tv-col-xs-push-0 {
+    left: auto
+}
+
+.tv-col-xs-push-1 {
+    left: 8.33333%
+}
+
+.tv-col-xs-push-2 {
+    left: 16.66667%
+}
+
+.tv-col-xs-push-3 {
+    left: 25%
+}
+
+.tv-col-xs-push-4 {
+    left: 33.33333%
+}
+
+.tv-col-xs-push-5 {
+    left: 41.66667%
+}
+
+.tv-col-xs-push-6 {
+    left: 50%
+}
+
+.tv-col-xs-push-7 {
+    left: 58.33333%
+}
+
+.tv-col-xs-push-8 {
+    left: 66.66667%
+}
+
+.tv-col-xs-push-9 {
+    left: 75%
+}
+
+.tv-col-xs-push-10 {
+    left: 83.33333%
+}
+
+.tv-col-xs-push-11 {
+    left: 91.66667%
+}
+
+.tv-col-xs-push-12 {
+    left: 100%
+}
+
+.tv-col-xs-offset-0 {
+    margin-left: 0
+}
+
+.tv-col-xs-offset-1 {
+    margin-left: 8.33333%
+}
+
+.tv-col-xs-offset-2 {
+    margin-left: 16.66667%
+}
+
+.tv-col-xs-offset-3 {
+    margin-left: 25%
+}
+
+.tv-col-xs-offset-4 {
+    margin-left: 33.33333%
+}
+
+.tv-col-xs-offset-5 {
+    margin-left: 41.66667%
+}
+
+.tv-col-xs-offset-6 {
+    margin-left: 50%
+}
+
+.tv-col-xs-offset-7 {
+    margin-left: 58.33333%
+}
+
+.tv-col-xs-offset-8 {
+    margin-left: 66.66667%
+}
+
+.tv-col-xs-offset-9 {
+    margin-left: 75%
+}
+
+.tv-col-xs-offset-10 {
+    margin-left: 83.33333%
+}
+
+.tv-col-xs-offset-11 {
+    margin-left: 91.66667%
+}
+
+.tv-col-xs-offset-12 {
+    margin-left: 100%
+}
+
+@media (min-width:600px) {
+
+    .tv-col-sm-1,
+    .tv-col-sm-2,
+    .tv-col-sm-3,
+    .tv-col-sm-4,
+    .tv-col-sm-5,
+    .tv-col-sm-6,
+    .tv-col-sm-7,
+    .tv-col-sm-8,
+    .tv-col-sm-9,
+    .tv-col-sm-10,
+    .tv-col-sm-11,
+    .tv-col-sm-12 {
+        float: left
+    }
+
+    .tv-col-sm-1 {
+        width: 8.33333%
+    }
+
+    .tv-col-sm-2 {
+        width: 16.66667%
+    }
+
+    .tv-col-sm-3 {
+        width: 25%
+    }
+
+    .tv-col-sm-4 {
+        width: 33.33333%
+    }
+
+    .tv-col-sm-5 {
+        width: 41.66667%
+    }
+
+    .tv-col-sm-6 {
+        width: 50%
+    }
+
+    .tv-col-sm-7 {
+        width: 58.33333%
+    }
+
+    .tv-col-sm-8 {
+        width: 66.66667%
+    }
+
+    .tv-col-sm-9 {
+        width: 75%
+    }
+
+    .tv-col-sm-10 {
+        width: 83.33333%
+    }
+
+    .tv-col-sm-11 {
+        width: 91.66667%
+    }
+
+    .tv-col-sm-12 {
+        width: 100%
+    }
+
+    .tv-col-sm-pull-0 {
+        right: auto
+    }
+
+    .tv-col-sm-pull-1 {
+        right: 8.33333%
+    }
+
+    .tv-col-sm-pull-2 {
+        right: 16.66667%
+    }
+
+    .tv-col-sm-pull-3 {
+        right: 25%
+    }
+
+    .tv-col-sm-pull-4 {
+        right: 33.33333%
+    }
+
+    .tv-col-sm-pull-5 {
+        right: 41.66667%
+    }
+
+    .tv-col-sm-pull-6 {
+        right: 50%
+    }
+
+    .tv-col-sm-pull-7 {
+        right: 58.33333%
+    }
+
+    .tv-col-sm-pull-8 {
+        right: 66.66667%
+    }
+
+    .tv-col-sm-pull-9 {
+        right: 75%
+    }
+
+    .tv-col-sm-pull-10 {
+        right: 83.33333%
+    }
+
+    .tv-col-sm-pull-11 {
+        right: 91.66667%
+    }
+
+    .tv-col-sm-pull-12 {
+        right: 100%
+    }
+
+    .tv-col-sm-push-0 {
+        left: auto
+    }
+
+    .tv-col-sm-push-1 {
+        left: 8.33333%
+    }
+
+    .tv-col-sm-push-2 {
+        left: 16.66667%
+    }
+
+    .tv-col-sm-push-3 {
+        left: 25%
+    }
+
+    .tv-col-sm-push-4 {
+        left: 33.33333%
+    }
+
+    .tv-col-sm-push-5 {
+        left: 41.66667%
+    }
+
+    .tv-col-sm-push-6 {
+        left: 50%
+    }
+
+    .tv-col-sm-push-7 {
+        left: 58.33333%
+    }
+
+    .tv-col-sm-push-8 {
+        left: 66.66667%
+    }
+
+    .tv-col-sm-push-9 {
+        left: 75%
+    }
+
+    .tv-col-sm-push-10 {
+        left: 83.33333%
+    }
+
+    .tv-col-sm-push-11 {
+        left: 91.66667%
+    }
+
+    .tv-col-sm-push-12 {
+        left: 100%
+    }
+
+    .tv-col-sm-offset-0 {
+        margin-left: 0
+    }
+
+    .tv-col-sm-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .tv-col-sm-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .tv-col-sm-offset-3 {
+        margin-left: 25%
+    }
+
+    .tv-col-sm-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .tv-col-sm-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .tv-col-sm-offset-6 {
+        margin-left: 50%
+    }
+
+    .tv-col-sm-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .tv-col-sm-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .tv-col-sm-offset-9 {
+        margin-left: 75%
+    }
+
+    .tv-col-sm-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .tv-col-sm-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .tv-col-sm-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width:992px) {
+
+    .tv-col-md-1,
+    .tv-col-md-2,
+    .tv-col-md-3,
+    .tv-col-md-4,
+    .tv-col-md-5,
+    .tv-col-md-6,
+    .tv-col-md-7,
+    .tv-col-md-8,
+    .tv-col-md-9,
+    .tv-col-md-10,
+    .tv-col-md-11,
+    .tv-col-md-12 {
+        float: left
+    }
+
+    .tv-col-md-1 {
+        width: 8.33333%
+    }
+
+    .tv-col-md-2 {
+        width: 16.66667%
+    }
+
+    .tv-col-md-3 {
+        width: 25%
+    }
+
+    .tv-col-md-4 {
+        width: 33.33333%
+    }
+
+    .tv-col-md-5 {
+        width: 41.66667%
+    }
+
+    .tv-col-md-6 {
+        width: 50%
+    }
+
+    .tv-col-md-7 {
+        width: 58.33333%
+    }
+
+    .tv-col-md-8 {
+        width: 66.66667%
+    }
+
+    .tv-col-md-9 {
+        width: 75%
+    }
+
+    .tv-col-md-10 {
+        width: 83.33333%
+    }
+
+    .tv-col-md-11 {
+        width: 91.66667%
+    }
+
+    .tv-col-md-12 {
+        width: 100%
+    }
+
+    .tv-col-md-pull-0 {
+        right: auto
+    }
+
+    .tv-col-md-pull-1 {
+        right: 8.33333%
+    }
+
+    .tv-col-md-pull-2 {
+        right: 16.66667%
+    }
+
+    .tv-col-md-pull-3 {
+        right: 25%
+    }
+
+    .tv-col-md-pull-4 {
+        right: 33.33333%
+    }
+
+    .tv-col-md-pull-5 {
+        right: 41.66667%
+    }
+
+    .tv-col-md-pull-6 {
+        right: 50%
+    }
+
+    .tv-col-md-pull-7 {
+        right: 58.33333%
+    }
+
+    .tv-col-md-pull-8 {
+        right: 66.66667%
+    }
+
+    .tv-col-md-pull-9 {
+        right: 75%
+    }
+
+    .tv-col-md-pull-10 {
+        right: 83.33333%
+    }
+
+    .tv-col-md-pull-11 {
+        right: 91.66667%
+    }
+
+    .tv-col-md-pull-12 {
+        right: 100%
+    }
+
+    .tv-col-md-push-0 {
+        left: auto
+    }
+
+    .tv-col-md-push-1 {
+        left: 8.33333%
+    }
+
+    .tv-col-md-push-2 {
+        left: 16.66667%
+    }
+
+    .tv-col-md-push-3 {
+        left: 25%
+    }
+
+    .tv-col-md-push-4 {
+        left: 33.33333%
+    }
+
+    .tv-col-md-push-5 {
+        left: 41.66667%
+    }
+
+    .tv-col-md-push-6 {
+        left: 50%
+    }
+
+    .tv-col-md-push-7 {
+        left: 58.33333%
+    }
+
+    .tv-col-md-push-8 {
+        left: 66.66667%
+    }
+
+    .tv-col-md-push-9 {
+        left: 75%
+    }
+
+    .tv-col-md-push-10 {
+        left: 83.33333%
+    }
+
+    .tv-col-md-push-11 {
+        left: 91.66667%
+    }
+
+    .tv-col-md-push-12 {
+        left: 100%
+    }
+
+    .tv-col-md-offset-0 {
+        margin-left: 0
+    }
+
+    .tv-col-md-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .tv-col-md-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .tv-col-md-offset-3 {
+        margin-left: 25%
+    }
+
+    .tv-col-md-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .tv-col-md-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .tv-col-md-offset-6 {
+        margin-left: 50%
+    }
+
+    .tv-col-md-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .tv-col-md-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .tv-col-md-offset-9 {
+        margin-left: 75%
+    }
+
+    .tv-col-md-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .tv-col-md-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .tv-col-md-offset-12 {
+        margin-left: 100%
+    }
+}
+
+@media (min-width:1200px) {
+
+    .tv-col-lg-1,
+    .tv-col-lg-2,
+    .tv-col-lg-3,
+    .tv-col-lg-4,
+    .tv-col-lg-5,
+    .tv-col-lg-6,
+    .tv-col-lg-7,
+    .tv-col-lg-8,
+    .tv-col-lg-9,
+    .tv-col-lg-10,
+    .tv-col-lg-11,
+    .tv-col-lg-12 {
+        float: left
+    }
+
+    .tv-col-lg-1 {
+        width: 8.33333%
+    }
+
+    .tv-col-lg-2 {
+        width: 16.66667%
+    }
+
+    .tv-col-lg-3 {
+        width: 25%
+    }
+
+    .tv-col-lg-4 {
+        width: 33.33333%
+    }
+
+    .tv-col-lg-5 {
+        width: 41.66667%
+    }
+
+    .tv-col-lg-6 {
+        width: 50%
+    }
+
+    .tv-col-lg-7 {
+        width: 58.33333%
+    }
+
+    .tv-col-lg-8 {
+        width: 66.66667%
+    }
+
+    .tv-col-lg-9 {
+        width: 75%
+    }
+
+    .tv-col-lg-10 {
+        width: 83.33333%
+    }
+
+    .tv-col-lg-11 {
+        width: 91.66667%
+    }
+
+    .tv-col-lg-12 {
+        width: 100%
+    }
+
+    .tv-col-lg-pull-0 {
+        right: auto
+    }
+
+    .tv-col-lg-pull-1 {
+        right: 8.33333%
+    }
+
+    .tv-col-lg-pull-2 {
+        right: 16.66667%
+    }
+
+    .tv-col-lg-pull-3 {
+        right: 25%
+    }
+
+    .tv-col-lg-pull-4 {
+        right: 33.33333%
+    }
+
+    .tv-col-lg-pull-5 {
+        right: 41.66667%
+    }
+
+    .tv-col-lg-pull-6 {
+        right: 50%
+    }
+
+    .tv-col-lg-pull-7 {
+        right: 58.33333%
+    }
+
+    .tv-col-lg-pull-8 {
+        right: 66.66667%
+    }
+
+    .tv-col-lg-pull-9 {
+        right: 75%
+    }
+
+    .tv-col-lg-pull-10 {
+        right: 83.33333%
+    }
+
+    .tv-col-lg-pull-11 {
+        right: 91.66667%
+    }
+
+    .tv-col-lg-pull-12 {
+        right: 100%
+    }
+
+    .tv-col-lg-push-0 {
+        left: auto
+    }
+
+    .tv-col-lg-push-1 {
+        left: 8.33333%
+    }
+
+    .tv-col-lg-push-2 {
+        left: 16.66667%
+    }
+
+    .tv-col-lg-push-3 {
+        left: 25%
+    }
+
+    .tv-col-lg-push-4 {
+        left: 33.33333%
+    }
+
+    .tv-col-lg-push-5 {
+        left: 41.66667%
+    }
+
+    .tv-col-lg-push-6 {
+        left: 50%
+    }
+
+    .tv-col-lg-push-7 {
+        left: 58.33333%
+    }
+
+    .tv-col-lg-push-8 {
+        left: 66.66667%
+    }
+
+    .tv-col-lg-push-9 {
+        left: 75%
+    }
+
+    .tv-col-lg-push-10 {
+        left: 83.33333%
+    }
+
+    .tv-col-lg-push-11 {
+        left: 91.66667%
+    }
+
+    .tv-col-lg-push-12 {
+        left: 100%
+    }
+
+    .tv-col-lg-offset-0 {
+        margin-left: 0
+    }
+
+    .tv-col-lg-offset-1 {
+        margin-left: 8.33333%
+    }
+
+    .tv-col-lg-offset-2 {
+        margin-left: 16.66667%
+    }
+
+    .tv-col-lg-offset-3 {
+        margin-left: 25%
+    }
+
+    .tv-col-lg-offset-4 {
+        margin-left: 33.33333%
+    }
+
+    .tv-col-lg-offset-5 {
+        margin-left: 41.66667%
+    }
+
+    .tv-col-lg-offset-6 {
+        margin-left: 50%
+    }
+
+    .tv-col-lg-offset-7 {
+        margin-left: 58.33333%
+    }
+
+    .tv-col-lg-offset-8 {
+        margin-left: 66.66667%
+    }
+
+    .tv-col-lg-offset-9 {
+        margin-left: 75%
+    }
+
+    .tv-col-lg-offset-10 {
+        margin-left: 83.33333%
+    }
+
+    .tv-col-lg-offset-11 {
+        margin-left: 91.66667%
+    }
+
+    .tv-col-lg-offset-12 {
+        margin-left: 100%
+    }
+}
+
+.tv-container-fluid,
+.tv-container-fluid * {
+    box-sizing: border-box
+}
+
+.TVScreenLg .tv-hidden-lg,
+.TVScreenMd:not(.TVScreenLg) .tv-hidden-md,
+.TVScreenSm:not(.TVScreenMd) .tv-hidden-sm,
+.TVScreenXs:not(.TVScreenSm) .tv-hidden-xs {
+    display: none !important
+}
+
+.TVTextCenter {
+    text-align: center
+}
+
+.TVTitleH1 {
+    font-size: 20px;
+    color: #333
+}
+
+.TVTitleH1 .TVSubtitle {
+    font-size: 16px;
+    color: #777
+}
+
+.TVCountryLayout {
+    font-family: Open Sans, Trebuchet MS, arial, sans-serif;
+    min-width: 282px;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none
+}
+
+.TVCountry .TVSNavLeft {
+    left: 0;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    top: 35%
+}
+
+.TVCountry .TVSNavRight {
+    right: 0;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    top: 35%
+}
+
+.TVCountry .TVSNavLeft,
+.TVCountry .TVSNavRight {
+    opacity: 1
+}
+
+.TVCountry .TVCountryText {
+    font-size: 14px;
+    color: #555;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: justify
+}
+
+.TVCountry .TVCountryText ul {
+    margin: 0
+}
+
+.TVCountry .TVCountryText ul li {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+    background: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    line-height: inherit
+}
+
+.TVCountry .TVCountryText p {
+    margin-top: 14px;
+    margin-bottom: 14px
+}
+
+.TVCountry .TVCountryButton,
+.TVCountry a.TVCountryButton {
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #666
+}
+
+.TVCountry .TVCountryButton:hover,
+.TVCountry a.TVCountryButton:hover {
+    border-color: #aaa;
+    background-color: #f9f9f9
+}
+
+.TVCountry .TVCountryH1 {
+    font-size: 24px;
+    line-height: 1.39;
+    font-weight: 700;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top
+}
+
+.TVCountry .TVCountryH2 {
+    font-size: 14px;
+    line-height: 1.39;
+    font-weight: 700;
+    color: #333
+}
+
+.TVCountry .TVCountrySubTitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9e9e9e
+}
+
+.TVCountry .TVCountryListInfo {
+    margin-bottom: 20px
+}
+
+.TVCountry .TVCountryListInfo .TVCountryFlagContainer {
+    margin-right: 16px;
+    position: relative;
+    top: 5px
+}
+
+.TVCountry .TVCountryListInfo .TVCountryH1 {
+    display: inline-block
+}
+
+.TVCountry .TVCountryList {
+    opacity: 1;
+    transition: opacity .3s cubic-bezier(.4, 0, .2, 1)
+}
+
+.TVCountry .TVCountryLoadNextPage {
+    margin: 16px 0
+}
+
+.TVCountry .TVCountryImage {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 140px;
+    background-position: 50%;
+    border-radius: 2px;
+    background-size: cover
+}
+
+.TVCountry .TVCountryDescription {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.39;
+    overflow: hidden;
+    max-height: 96px;
+    margin-top: 20px;
+    text-align: justify
+}
+
+.TVCountry .TVCountryDescriptionContainer {
+    -moz-column-count: 1;
+    column-count: 1
+}
+
+.TVCountry .TVCountryDescriptionContainer .TVCountryDescriptionItem {
+    width: 100%;
+    padding: 10px 0
+}
+
+.TVCountry .TVCountryDescriptionContainer .TVCountryDescriptionItem:last-child {
+    margin-bottom: 0
+}
+
+.TVCountry .TVCountryUpButton {
+    cursor: pointer;
+    background-color: #efefef;
+    width: 300px;
+    color: grey;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    padding: 12px 0;
+    margin: 20px auto 0;
+    border-radius: 4px;
+    text-transform: uppercase
+}
+
+.TVCountry .TVCountryUpButton:before {
+    content: "ЗАБРОНИРОВАТЬ"
+}
+
+.TVScreenSm .TVCountry .TVSNavLeft,
+.TVScreenSm .TVCountry .TVSNavRight {
+    opacity: 0
+}
+
+.TVScreenSm .TVCountry:hover .TVSNavLeft,
+.TVScreenSm .TVCountry:hover .TVSNavRight {
+    opacity: 1
+}
+
+.TVScreenSm .TVCountry .TVCountryDescription {
+    max-height: 80px;
+    text-align: left
+}
+
+.TVScreenSm .TVCountry .TVCountryButtons .TVCountryButton {
+    padding: 5px 20px
+}
+
+.TVScreenSm .TVCountry .TVCountryButtons>.TVCountryButton {
+    margin-right: 20px
+}
+
+.TVScreenSm .TVCountry .TVCountryButtons>.TVCountryButton:last-child {
+    margin-right: 0
+}
+
+.TVCountryMapComponent .TVMapToolsDrawing,
+.TVCountryMapComponent .TVMapToolsPrice {
+    display: none
+}
+
+.TVCountryMapComponent .TVLeafletRulerMarker {
+    box-sizing: content-box
+}
+
+.TVCountryMapWindowComponent .TVMapLayersDecorator {
+    right: 220px
+}
+
+.TVCountryMapBodyComponent {
+    height: 70vh
+}
+
+.TVCountryMapBodyComponent .TVMapToolsDecorator {
+    right: 10px
+}
+
+.TVCountryMapBodyComponent .TVMapLayersDecorator {
+    right: 100px
+}
+
+.TVCountryCountryPageMapComponent .TVMapFilterControl,
+.TVCountryMapBodyComponent .TVMapCardController,
+.TVCountryMapBodyComponent .TVMapFilterControl,
+.TVCountryResortPageMapComponent .TVMapFilterControl {
+    display: none
+}
+
+.TVFilterForm {
+    background-color: #eee;
+    color: #777
+}
+
+@media screen and (max-width:500px) {
+    .TVCountryDetail.TVHotelDetail .TVHotelReviewsTopButtons {
+        display: block
+    }
+
+    .TVCountryDetail.TVHotelDetail .TVHotelReviewsTopButtons .TVMobileResultBtn {
+        width: 100%
+    }
+
+    .TVCountryDetail.TVHotelDetail .TVHotelReviewsTopButtons .TVMobileResultBtn:not(:first-child) {
+        margin: 20px 0 0
+    }
+
+    .TVCountryDetail.TVHotelDetail .TVMobileResultBtn.TVHotelReviewsMore {
+        width: 100%
+    }
+}
+
+.TVCountryFilterInput input {
+    width: 100%;
+    padding: 4px 7px;
+    border: 1px solid #ddd;
+    line-height: 1.39;
+    font-size: 13px;
+    font-family: Tourvisor, Trebuchet MS, arial, sans-serif
+}
+
+.TVRatingBoxComponent .TVImageBox {
+    margin-left: 2px;
+    margin-right: 2px
+}
+
+.TVRatingBoxComponent .TVHotelStar {
+    color: #acacac;
+    font-size: 19px;
+    display: inline-block;
+    background-image: none;
+    padding-right: 2px
+}
+
+.TVRatingBoxComponent .TVHotelStar:before {
+    font-family: TVicons;
+    content: "\e90c"
+}
+
+.TVRatingBoxComponent .TVHotelStar.TVImageActive {
+    background-position: 0 0
+}
+
+.TVRatingBoxComponent .TVHotelStar.TVImageActive:before {
+    color: #ffa300
+}
+
+.TVBreadcrumbsContainer {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f3f3f3;
+    line-height: 1;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    font-size: 10px
+}
+
+.TVBreadcrumbsContainer .TVBreadcrumb {
+    text-decoration: none
+}
+
+.TVBreadcrumbsContainer .TVBreadcrumb t-span {
+    margin-right: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #999
+}
+
+.TVScreenSm .TVBreadcrumbsContainer .TVBreadcrumb t-span:before {
+    content: "/";
+    padding-right: 5px;
+    font-family: monospace
+}
+
+.TVScreenSm .TVBreadcrumbsContainer .TVBreadcrumb:first-child t-span:before {
+    content: "";
+    padding-right: 0
+}
+
+.TVScreenSm .TVBreadcrumbsContainer .TVBreadcrumb:last-child t-span {
+    margin-right: 0;
+    color: #333
+}
+
+.TVCountry .TVCountryItem {
+    padding: 10px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #fff
+}
+
+.TVCountry .TVCountryItem .TVCountryFlagMedium {
+    display: inline-block
+}
+
+.TVCountry .TVCountryItem .TVCountryImage {
+    margin-top: 15px
+}
+
+.TVCountry .TVCountryItem .TVCountryItemInfoWrapper .TVCountryItemInfo {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    display: inline-block;
+    vertical-align: top
+}
+
+.TVCountry .TVCountryItem .TVCountryH2 {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    margin-right: 10px
+}
+
+.TVCountry .TVCountryItem .TVCountryH2 a {
+    text-decoration: none
+}
+
+.TVCountry .TVCountryItem .TVCountryH2 a t-span {
+    text-decoration: none;
+    color: #333
+}
+
+.TVCountry .TVCountryItem .TVWeather {
+    display: inline-block;
+    vertical-align: top
+}
+
+.TVCountry .TVCountryItem .TVCountryButtons {
+    height: auto;
+    margin-top: 25px
+}
+
+.TVScreenSm .TVCountry .TVCountryItemWithSeparator:after,
+.TVScreenSm .TVCountry .TVCountryItemWithSeparator:first-child:before {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #dedede
+}
+
+.TVScreenSm .TVCountry .TVCountryItem {
+    border-radius: 0;
+    border: none
+}
+
+.TVScreenSm .TVCountry .TVCountryItem:hover {
+    background: #f6f6f6
+}
+
+.TVScreenSm .TVCountry .TVCountryItem:hover .TVMinPriceArrow {
+    background-position: -113px -135px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryItemInfoWrapper {
+    padding-top: 5px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryFlag {
+    vertical-align: top;
+    margin-right: 10px;
+    margin-top: 4px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryImage {
+    width: 220px;
+    margin-top: 0;
+    margin-right: 30px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryItemInfoWrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100% - 250px);
+    height: 140px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryItemInfoWrapper .TVCountryItemInfo {
+    margin-top: 18px
+}
+
+.TVScreenSm .TVCountry .TVCountryItem .TVCountryH1 {
+    width: auto;
+    margin-right: 25px;
+    line-height: 26px
+}
+
+.TVCountry .TVCountryDetail.TVRegionDetail .TVCountryButtons {
+    margin-top: 0
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountry .TVCountryDetail.TVRegionDetail .TVCountryBigImage {
+    height: 190px
+}
+
+.TVCountry .TVCountryItem.TVHotelItem .TVCountryItemInfoWrapper .TVCountryItemInfo {
+    margin-top: 0
+}
+
+.TVCountry .TVCountryItem.TVHotelItem .TVCountryItemInfoWrapper .TVCountryItemInfo .TVCountryH1 {
+    width: 100%
+}
+
+.TVCountry .TVCountryItem.TVHotelItem .TVCountryItemInfoWrapper .TVCountryItemInfo .TVCountryDescription {
+    max-height: 60px;
+    margin-top: 15px
+}
+
+.TVCountry .TVCountryItem.TVHotelItem .TVMinPriceBlock {
+    float: right
+}
+
+.TVScreenSm .TVCountry .TVCountryItem.TVHotelItem .TVCountryH2 {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.TVCountry .TVCountryItem.TVRegionItem .TVCountrySubTitle {
+    font-size: 14px
+}
+
+.TVCountry .TVCountryItem.TVRegionItem .TVCountryItemInfoWrapper .TVCountryItemInfo .TVCountryDescription {
+    margin-top: 10px
+}
+
+.TVCountry .TVCountryRequestBlock {
+    background-color: #efefef;
+    padding: 30px;
+    margin: 10px 0
+}
+
+.TVCountry .TVCountryRequestBlock .TVCountryH3 {
+    color: #4a4a4a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left
+}
+
+.TVCountry .TVCountryRequestBlock .TVCountryP {
+    color: #9b9b9b;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+
+.TVCountry .TVCountryRequestBlock .TVButtonComponent {
+    margin-top: 20px
+}
+
+.TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton {
+    background-color: #be511f;
+    display: block
+}
+
+.TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton .TVBGradient {
+    text-align: center;
+    font-size: 15px
+}
+
+.TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton .TVBGradient .TVBButtonCaption:after {
+    content: "Получить предложение";
+    text-transform: uppercase
+}
+
+.TVScreenSm .TVCountry .TVCountryRequestBlock .TVButtonComponent,
+.TVScreenSm .TVCountry .TVCountryRequestBlock .TVCountryH3,
+.TVScreenSm .TVCountry .TVCountryRequestBlock .TVCountryP {
+    text-align: center
+}
+
+.TVScreenSm .TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton {
+    display: inline-block
+}
+
+.TVScreenSm .TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton .TVBGradient .TVBButtonCaption:after {
+    content: "Получить выгодное предложение"
+}
+
+.TVScreenMd .TVCountry .TVCountryRequestBlock {
+    position: relative
+}
+
+.TVScreenMd .TVCountry .TVCountryRequestBlock .TVCountryH3,
+.TVScreenMd .TVCountry .TVCountryRequestBlock .TVCountryP {
+    text-align: left;
+    width: calc(100% - 350px)
+}
+
+.TVScreenMd .TVCountry .TVCountryRequestBlock .TVButtonComponent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 30px
+}
+
+.TVScreenMd .TVCountry .TVCountryRequestBlock .TVButtonComponent .TVBButton {
+    margin: 0
+}
+
+.TVCountryPhotos .TVCountryPhoto {
+    display: inline-block;
+    margin-bottom: 10px;
+    vertical-align: top;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover
+}
+
+.TVCountryPhotos .TVCountryPhoto.TVCountryPhotoFullWidth,
+.TVCountryPhotos .TVCountryPhoto.TVCountryPhotoHalfWidth {
+    width: 100%
+}
+
+.TVScreenSm .TVCountryPhotos .TVCountryPhoto {
+    height: 600px
+}
+
+.TVScreenSm .TVCountryPhotos .TVCountryPhoto.TVCountryPhotoHalfWidth {
+    width: calc(50% - 5px)
+}
+
+.TVScreenSm .TVCountryPhotos .TVCountryPhoto.TVCountryPhotoHalfWidth:nth-child(odd) {
+    margin-left: 5px
+}
+
+.TVScreenSm .TVCountryPhotos .TVCountryPhoto.TVCountryPhotoHalfWidth:nth-child(2n) {
+    margin-right: 5px
+}
+
+.TVCountryFlagMedium {
+    position: relative;
+    top: 5px;
+    border: 1px solid #f3f3f3;
+    width: 42px;
+    height: 28px
+}
+
+.TVCountryDetail {
+    margin-bottom: 10px
+}
+
+.TVCountryDetail .TVCountryBigImage {
+    width: 100%;
+    height: 220px;
+    background-position: 50%;
+    background-size: 100% auto
+}
+
+.TVCountryDetail .TVCountryInfo {
+    margin: 5px 0 10px
+}
+
+.TVCountryDetail .TVCountryH1 {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px
+}
+
+.TVCountryDetail .TVCountryH2 {
+    font-size: 18px
+}
+
+.TVCountryDetail .TVCountryText strong {
+    line-height: 1.39;
+    font-weight: 700;
+    color: #333;
+    font-size: 18px
+}
+
+.TVCountryDetail .TVWeather {
+    display: inline-block;
+    font-size: 17px;
+    vertical-align: bottom;
+    position: relative;
+    bottom: 3px
+}
+
+.TVCountryDetail .TVCountryButtons {
+    height: auto;
+    text-align: justify;
+    margin-top: 16px;
+    margin-bottom: 16px
+}
+
+.TVCountryDetail .TVCountrySubTitle {
+    margin-bottom: 15px
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton {
+    width: 100%;
+    padding: 5px 0;
+    margin-left: 10px
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child {
+    margin-left: 0
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(2),
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(2)~.TVCountryButton {
+    width: calc(50% - 5px)
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(3),
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(3)~.TVCountryButton,
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(4),
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryButtons>.TVCountryButton:first-child:nth-last-of-type(4)~.TVCountryButton {
+    width: calc(33.33333% - 7px)
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryRequestBlock {
+    padding: 15px
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryRequestBlock .TVCountryH3 {
+    font-size: 16px
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVCountryInfo {
+    margin: 0
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVMinPriceBlock {
+    display: block;
+    float: none;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    margin-top: 15px;
+    padding: 2px 0
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVCountryDetail .TVMinPriceBlock .TVCountryButton {
+    background: none;
+    border: none
+}
+
+.TVScreenXs .TVCountryDetail .TVCountryFlagMedium {
+    margin-right: 16px
+}
+
+.TVScreenXs .TVCountryDetail .TVCountryImage {
+    height: 200px
+}
+
+.TVScreenXs .TVCountryDetail .TVCountryH1 {
+    width: auto;
+    font-size: 24px;
+    margin-right: 12px
+}
+
+.TVScreenSm .TVCountryDetail .TVCountryBigImage {
+    height: 310px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryH1 {
+    text-transform: capitalize;
+    display: block;
+    white-space: normal;
+    font-size: 18px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryH2 {
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 5px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryText {
+    color: #777;
+    text-align: justify;
+    margin-top: 5px;
+    margin-bottom: 11px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryText ul {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0 0 0 20px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryText ul li {
+    display: block;
+    position: relative;
+    line-height: 21px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryText ul li:before {
+    font-family: TVicons;
+    content: "\e90b";
+    position: absolute;
+    left: -17px;
+    font-size: 10px;
+    color: #5cb85b
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryText strong {
+    font-weight: 700;
+    color: #777;
+    font-size: 14px
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCountryButtons {
+    margin-top: 0
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVStarContainer {
+    display: block
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCatAddReview.TVCatButton {
+    text-transform: uppercase;
+    background-color: #be5120
+}
+
+.TVCountry .TVCountryDetail.TVHotelDetail .TVCatAddReview.TVCatButton:before {
+    background: none;
+    font-size: 30px;
+    left: 20px;
+    font-family: TVicons;
+    content: "\e947"
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelBuild:before,
+.TVCountry .TVCountryDetail .TVCountryHotelPhone:before,
+.TVCountry .TVCountryDetail .TVCountryHotelPlacement:before,
+.TVCountry .TVCountryDetail .TVCountryHotelRepair:before,
+.TVCountry .TVCountryDetail .TVCountryHotelSite:before,
+.TVCountry .TVCountryDetail .TVCountryHotelSqare:before {
+    font-weight: 700;
+    color: #333
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelBuild:before {
+    content: "Основан в "
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelRepair:before {
+    content: "Последняя реставрация в "
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelPlacement:before {
+    content: "Расположение: "
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelSqare:before {
+    content: "Площадь: "
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelPhone:before {
+    content: "Телефон: "
+}
+
+.TVCountry .TVCountryDetail .TVCountryHotelSite:before {
+    content: "Сайт: "
+}
+
+.TVScreenSm .TVCountry .TVCountryDetail.TVHotelDetail .TVCountryH1 {
+    font-size: 24px
+}
+
+.TVScreenSm .TVCountry .TVCountryDetail.TVHotelDetail .TVMinPriceBlock .TVCountryButton {
+    width: inherit
+}
+
+.TVScreenSm:not(.TVScreenMd) .TVCountry .TVCountryDetail.TVHotelDetail .TVCountryButtons .TVCountryButton {
+    margin-right: 10px;
+    padding: 5px 10px
+}
+
+.TVCountry .TVMinPriceBlock {
+    margin-top: 0;
+    line-height: 1.39;
+    text-align: center;
+    border-radius: 2px
+}
+
+.TVCountry .TVMinPriceBlock .TVMinPriceLink {
+    color: #000
+}
+
+.TVCountry .TVMinPriceBlock .TVMinPriceValue {
+    vertical-align: top;
+    margin-right: 0;
+    line-height: 30px;
+    color: #000
+}
+
+.TVCountry .TVMinPriceBlock .TVMinPriceSuffix {
+    position: relative;
+    top: -2px
+}
+
+.TVCountry .TVMinPriceBlock .TVCurrencyVal {
+    font-size: 11px;
+    font-weight: 300;
+    color: #999
+}
+
+.TVCountry .TVMinPriceBlock .TVCurrencyVal:after {
+    position: relative;
+    top: 3px;
+    border-bottom: 1px solid #ccc;
+    text-transform: lowercase
+}
+
+.TVCountry .TVMinPriceBlock .TVMinPriceArrow {
+    vertical-align: top;
+    background-image: none;
+    background-color: #bcbdbc;
+    border-radius: 30px;
+    width: 27px;
+    height: 27px;
+    color: #fff;
+    line-height: 27px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-left: 2px
+}
+
+.TVCountry .TVMinPriceBlock .TVMinPriceArrow:before {
+    font-family: TVicons;
+    content: "\e906"
+}
+
+.TVCountry .TVMinPriceBlock .TVCountryButton {
+    width: auto
+}
+
+.TVScreenSm .TVCountry .TVMinPriceBlock {
+    float: right;
+    border: none;
+    background: none;
+    margin-top: 0
+}
+
+.TVStarContainer {
+    display: inline-block
+}
+
+.TVStarContainer .TVStar {
+    margin-right: 2px;
+    display: inline-block;
+    color: #ffa200;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.TVStarContainer .TVStar:before {
+    font-family: TVicons;
+    content: "\e90c"
+}
+
+.TVAccomodationContainer {
+    font-size: 10px;
+    display: inline-block;
+    padding: 0 4px;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #eaa627;
+    border-radius: 2px;
+    line-height: 15px
+}
+
+.TVWeather {
+    font-size: 15px
+}
+
+.TVWeather .TVLPSunTemprature {
+    display: inline-block;
+    color: #eaa627;
+    margin-right: 10px
+}
+
+.TVWeather .TVLPSunTemprature:before {
+    background-image: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0;
+    font-family: TVicons;
+    content: "\e958"
+}
+
+.TVWeather .TVLPWaterTemprature {
+    display: inline-block;
+    color: #5495fc
+}
+
+.TVWeather .TVLPWaterTemprature:before {
+    background-image: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 0;
+    font-family: TVicons;
+    content: "\e959"
+}
+
+.TVCountryFilterContainer {
+    border: 1px solid #dedede;
+    border-radius: 2px;
+    margin-bottom: 10px
+}
+
+.TVCountryExtraFilter,
+.TVCountryFilter {
+    background-color: #fff
+}
+
+.TVCountryExtraFilter .TVFilterToggle,
+.TVCountryFilter .TVFilterToggle {
+    display: inline-block
+}
+
+.TVCountryExtraFilter .TVMobMFFilterIcon,
+.TVCountryFilter .TVMobMFFilterIcon {
+    display: block;
+    float: right
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem,
+.TVCountryFilter .TVCountryFilterItem {
+    position: relative;
+    color: #777;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: normal;
+    padding: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-top: 1px solid #dedede
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVCountryFilterLabel,
+.TVCountryFilter .TVCountryFilterItem .TVCountryFilterLabel {
+    color: #777;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    width: 22%;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3%;
+    line-height: 11px;
+    max-width: 75px;
+    word-spacing: 60px
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVCountryCombobox,
+.TVCountryFilter .TVCountryFilterItem .TVCountryCombobox {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    width: 130px
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVCountryCombobox .TVTextBoxContent,
+.TVCountryFilter .TVCountryFilterItem .TVCountryCombobox .TVTextBoxContent {
+    text-transform: capitalize
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVMobMFSwitchIcon,
+.TVCountryFilter .TVCountryFilterItem .TVMobMFSwitchIcon {
+    right: 20px;
+    top: 16px
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVMobMFItemCaption,
+.TVCountryFilter .TVCountryFilterItem .TVMobMFItemCaption {
+    padding-right: 25px
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVCountryFilterContent,
+.TVCountryFilter .TVCountryFilterItem .TVCountryFilterContent {
+    display: inline-block
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem.TVCountryCheckbox .TVCountryFilterContent,
+.TVCountryFilter .TVCountryFilterItem.TVCountryCheckbox .TVCountryFilterContent {
+    vertical-align: middle
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVRatingBoxComponent,
+.TVCountryFilter .TVCountryFilterItem .TVRatingBoxComponent {
+    display: inline-block;
+    width: 75%
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVRatingBoxComponent .TVOptionStars,
+.TVCountryFilter .TVCountryFilterItem .TVRatingBoxComponent .TVOptionStars {
+    padding-left: 10px
+}
+
+.TVCountryExtraFilter .TVCountryFilterItem .TVCountryFilterInput,
+.TVCountryFilter .TVCountryFilterItem .TVCountryFilterInput {
+    display: inline-block;
+    width: 75%;
+    padding-left: 10px
+}
+
+.TVScreenSm .TVCountryFilterContainer {
+    border: none
+}
+
+.TVScreenSm .TVCountryExtraFilter,
+.TVScreenSm .TVCountryFilter {
+    background-color: #efefef
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryCheckbox .TVCountryFilterLabel,
+.TVScreenSm .TVCountryFilter .TVCountryCheckbox .TVCountryFilterLabel {
+    width: auto;
+    margin-left: 0;
+    white-space: nowrap
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryCheckbox .TVCountryFilterContent,
+.TVScreenSm .TVCountryFilter .TVCountryCheckbox .TVCountryFilterContent {
+    margin-left: 10px
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryCheckbox .TVCountryFilterContent .TVCheckBox,
+.TVScreenSm .TVCountryFilter .TVCountryCheckbox .TVCountryFilterContent .TVCheckBox {
+    margin-top: 5px
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    border: none;
+    width: 100%;
+    max-width: 145px
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem.TVCountryShowMap,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem.TVCountryShowMap {
+    position: absolute;
+    right: 15px;
+    color: #555;
+    font-size: 13px;
+    text-transform: uppercase
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem.TVCountryShowMap .TVCountryFilterLabel:before,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem.TVCountryShowMap .TVCountryFilterLabel:before {
+    content: "Показать"
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryShowMapBtn,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryShowMapBtn {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryShowMapBtn:before,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryShowMapBtn:before {
+    content: "На карте"
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryShowMapBtn:after,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryShowMapBtn:after {
+    font-family: TVicons;
+    content: "\e953";
+    color: #999
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryFilterLabel,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryFilterLabel {
+    width: 100%;
+    max-width: 100%;
+    line-height: 20px;
+    color: #767676;
+    text-transform: uppercase;
+    text-align: left;
+    word-spacing: normal;
+    white-space: nowrap;
+    display: block
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryCombobox,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryCombobox {
+    margin-left: 0;
+    width: 100%
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVRatingBoxComponent,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVRatingBoxComponent {
+    display: block;
+    width: auto
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVRatingBoxComponent .TVOptionStars,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVRatingBoxComponent .TVOptionStars {
+    padding-left: 0
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem .TVCountryFilterInput,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem .TVCountryFilterInput {
+    display: block;
+    width: auto;
+    padding-left: 0
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(2),
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(2)~.TVCountryFilterItem,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(2),
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(2)~.TVCountryFilterItem {
+    width: calc(50% - 5px)
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(3),
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(3)~.TVCountryFilterItem,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(3),
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(3)~.TVCountryFilterItem {
+    width: calc(33.33333% - 5px)
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(4),
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(4)~.TVCountryFilterItem,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(4),
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(4)~.TVCountryFilterItem {
+    width: calc(25% - 5px)
+}
+
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(5),
+.TVScreenSm .TVCountryExtraFilter .TVCountryFilterItem:first-child:nth-last-of-type(5)~.TVCountryFilterItem,
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(5),
+.TVScreenSm .TVCountryFilter .TVCountryFilterItem:first-child:nth-last-of-type(5)~.TVCountryFilterItem {
+    width: calc(20% - 5px)
+}
+
+.TVScreenMd .TVCountryExtraFilter .TVCountryFilterItem,
+.TVScreenMd .TVCountryFilter .TVCountryFilterItem {
+    max-width: 160px
+}
+
+.TVRatingContainer {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    margin-right: 5px
+}
+
+.TVRatingContainer .TVRatingValue {
+    display: inline;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 0 5px;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 2px 2px 2px 2px
+}
+
+.TVRatingContainer .TVRatingValue.TVRatingBad {
+    background-color: #e07a55
+}
+
+.TVRatingContainer .TVRatingValue.TVRatingGood {
+    background-color: #5cb85c
+}
+
+.TVRatingContainer .TVRatingValue.TVRatingNormal {
+    background-color: #e6b661
+}
+
+.TVRatingContainer .TVRatingValue.TVRatingExcellent {
+    background-color: #4bdc4b
+}
+
+.TVRestTypes {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.TVRestTypes .TVRestTypeContainer {
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px
+}
+
+.TVRestTypes .TVRestType {
+    position: static;
+    background: #efefef;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    color: #333;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.TVRestTypes .TVRestType:first-child {
+    margin-left: 0
+}
+
+.TVRestTypes .TVRestType:before {
+    position: static;
+    display: block
+}
+
+.TVRestTypes .TVRestTypeSeaBeach {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeSeaBeach:before {
+    font-family: TVicons;
+    content: "\e930"
+}
+
+.TVRestTypes .TVRestTypeChildren {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeChildren:before {
+    font-family: TVicons;
+    content: "\e931"
+}
+
+.TVRestTypes .TVRestTypeShopping {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeShopping:before {
+    font-family: TVicons;
+    content: "\e932"
+}
+
+.TVRestTypes .TVRestTypeParty {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeParty:before {
+    font-family: TVicons;
+    content: "\e933"
+}
+
+.TVRestTypes .TVRestTypeExcursion {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeExcursion:before {
+    font-family: TVicons;
+    content: "\e934"
+}
+
+.TVRestTypes .TVRestTypeSky {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeSky:before {
+    font-family: TVicons;
+    content: "\e935"
+}
+
+.TVRestTypes .TVRestTypeHealth {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #777
+}
+
+.TVRestTypes .TVRestTypeHealth:before {
+    font-family: TVicons;
+    content: "\e936"
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVRestTypes .TVRestTypeContainer:first-child:nth-last-of-type(n),
+.TVScreenXs:not(.TVScreenSm) .TVRestTypes .TVRestTypeContainer:first-child:nth-last-of-type(n)~.TVRestTypeContainer {
+    width: calc((100% - 10px)/2);
+    margin-right: 10px
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVRestTypes .TVRestTypeContainer:first-child:nth-last-of-type(n)~.TVRestTypeContainer:nth-child(2n) {
+    margin-right: 0
+}
+
+.TVScreenXs:not(.TVScreenSm) .TVRestTypes .TVRestTypeContainer:first-child:last-of-type {
+    width: 100%;
+    margin-right: 0
+}
+
+.TVScreenSm .TVRestTypes .TVRestTypeContainer {
+    display: inline-block;
+    width: 120px;
+    margin-right: 10px
+}
+
+.TVScreenSm .TVRestTypes .TVRestTypeContainer:last-child {
+    margin-right: 0
+}
+
+.TVHotelTypeCombo .TVListBox .TVCheckBox {
+    display: block;
+    padding: 2px 20px
+}
+
+.TVHotelTypeCombo .TVSubmitButton {
+    margin-top: 0
+}
+
+@keyframes tv-progress-preview-animation {
+    to {
+        background-position: 300% 0, 0 0
+    }
+}
+
+@-webkit-keyframes tv-progress-preview-animation {
+    to {
+        background-position: 300% 0, 0 0
+    }
+}
+
+.TVCoreSliderRoot {
+    display: flex
+}
+
+.TVCoreSliderRoot .TVSlide {
+    display: inline-block;
+    position: relative;
+    background-size: cover;
+    background-position: 50%
+}
+
+.TVCoreSliderRoot .TVSlide.TVPreview {
+    background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), hsla(0, 0%, 100%, .5) 50%, hsla(0, 0%, 100%, 0)), linear-gradient(#d3d3d3, #d3d3d3);
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 100% 100%;
+    background-position: -200% 0, 0 0;
+    -webkit-animation: tv-progress-preview-animation 3s infinite;
+    animation: tv-progress-preview-animation 3s infinite
+}

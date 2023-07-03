@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link type="image/icon type" rel="icon" href="img/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meltem</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/tours.css">
+    <link rel="stylesheet" href="style/place_page.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" class="img_logo">
+        </a>
+        <div class="header_elements">
+            <img src="img/icons/search.png" class="fa">
+            <input type="search" class="input_search">
+            <a class="menu_item" href="index.html#search">Поиск</a>
+            <a class="menu_item" href="index.html#manage_book">Управление бронированием</a>
+            <a class="menu_item" href="index.html#sales">Акции</a>
+        </div>
+    </header>
+
+    <div class="cases">
+        <div class="case" id="tours">
+            <img class="prev_tour" src="img/tours/3.png">
+            <div class="case_info">
+                <a href="meltem.html" class="case_title">Meltem</a>
+                <p class="case_location">Коньяалты, Анталия
+                </p>
+            </div>
+            <div class="case_info additional_info">
+                <div>
+                    <p class="additional_info_text">6 июля — 14 июля</p>
+                    <p class="additional_info_text">2 взрослых</p>
+                    <br>
+                    <p class="additional_info_text">Услуги</p>
+                    <ul class="order_list">
+                        <li>телевизор: есть (русский канал)</li>
+                        <li>телефон</li>
+                        <li>уборка номера: 3 раза в неделю</li>
+                        <li>сейф: на ресепшн, платно</li>
+                    </ul>
+                </div>
+                <div class="place_price_container">
+                    <p class="place_price">117 599 ₽ </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section_add section">
+        <h2 class="add_title section_title">Дополнительные услуги:</h2>
+        <div class="chekers_add">
+            <div class="checker_add">
+                <input type="checkbox" onclick="provodnikPrice()" id="provodnik">
+                <p>Услуги проводника</p>
+            </div>
+            <div class="checker_add">
+                <input type="checkbox" onclick="arendaPrice()" id="arenda">
+                <p>Услуги аренды туристического оборудования</p>
+            </div>
+            <div class="checker_add">
+                <input type="checkbox" onclick="photoPrice()" id="photo">
+                <p>Услуги фотографа/видеооператора</p>
+            </div>
+            <div class="checker_add">
+                <input type="checkbox" onclick="strahovkaPrice()" id="strahovka">
+                <p>Страхование от несчастных случаев</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section_order section">
+        <p class="hint_search_order_text">Коментарий к заказу</p>
+        <br>
+        <div class="subscribe_form email_form">
+            <input type="text">
+            <a href="#">Отправить</a>
+        </div>
+
+        <p class="final_price">Итоговая стоимость: <span id="place_price">117599</span> ₽ </p>
+        <div class="book_contacs">
+            <div class="super_form">
+                <p class="hint_name_email_text">Ваш <b>Email</b> </p>
+                <input class="input_order" type="email">
+            </div>
+            <div class="super_form">
+                <p class="hint_name_email_text">Ваш <b>телефон</b> </p>
+                <input class="input_order" type="tel">
+            </div>
+            <div class="btn_container">
+                <a class="to_book_btn" href="#">Перейти к бронированию</a>
+            </div>
+        </div>
+        <div class="mini_footer">
+            <img src="img/icons/okok.png">
+            <p>Email и телефон используются для оформления заказа, создания личного кабинета, а также экстренной связи.
+                Мы не передаем персональные данные третьим лицам.</p>
+        </div>
+    </div>
+
+    <script>
+        function provodnikPrice() {
+            var checkbox = document.getElementById('provodnik');
+            var pricetext = document.getElementById('place_price')
+            var price = parseInt(pricetext.textContent)
+            if (checkbox.checked != true) {
+                pricetext.textContent = price - 500
+            } else {
+                pricetext.textContent = price + 500
+            }
+        }
+        function arendaPrice() {
+            var checkbox = document.getElementById('arenda');
+            var pricetext = document.getElementById('place_price')
+            var price = parseInt(pricetext.textContent)
+            if (checkbox.checked != true) {
+                pricetext.textContent = price - 500
+            } else {
+                pricetext.textContent = price + 500
+            }
+        }
+        function photoPrice() {
+            var checkbox = document.getElementById('photo');
+            var pricetext = document.getElementById('place_price')
+            var price = parseInt(pricetext.textContent)
+            if (checkbox.checked != true) {
+                pricetext.textContent = price - 500
+            } else {
+                pricetext.textContent = price + 500
+            }
+        }
+        function strahovkaPrice() {
+            var checkbox = document.getElementById('strahovka');
+            var pricetext = document.getElementById('place_price')
+            var price = parseInt(pricetext.textContent)
+            if (checkbox.checked != true) {
+                pricetext.textContent = price - 500
+            } else {
+                pricetext.textContent = price + 500
+            }
+        }
+    </script>
+</body>
+
+</html>

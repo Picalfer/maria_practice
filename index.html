@@ -11,11 +11,13 @@
 
 <body>
     <header>
-        <img src="img/logo.png" class="img_logo">
+        <a href="index.html">
+            <img src="img/logo.png" class="img_logo">
+        </a>
         <div class="header_elements">
             <img src="img/icons/search.png" class="fa">
             <input type="search" class="input_search">
-            <a class="menu_item" href="tours.html">Поиск</a>
+            <a class="menu_item" href="#search">Поиск</a>
             <a class="menu_item" href="#manage_book">Управление бронированием</a>
             <a class="menu_item" href="#sales">Акции</a>
         </div>
@@ -25,7 +27,7 @@
         <div class="promo_left_section">
             <h1 class="promo_title">Выбирайте и покупайте туры онлайн</h1>
             <h3 class="promo_desc">по ценам туроператоров или ниже с поддержкой до и после покупки</h3>
-            <a href="#" class="btn_search_tours">Искать туры</a>
+            <a href="tours.html" class="btn_search_tours">Искать туры</a>
         </div>
         <div class="promo_right_section">
             <h2 class="promo_skew_text">Ваш лучший помощник в путешествии!</h2>
@@ -46,7 +48,7 @@
             </div>
         </div>
     </div>
-    <div class="tours">
+    <div class="tours" id="search">
         <div class="city">
             <p>Город вылета: <a href="#">Омск</a></p>
         </div>
@@ -80,11 +82,11 @@
                 </div>
             </div>
             <div class="bar_info_item bar_info_item_end">
-                <a href="#">ИСКАТЬ ТУРЫ</a>
+                <a href="tours.html">ИСКАТЬ ТУРЫ</a>
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section" id="sales">
         <h2 class="section_title">Акции</h2>
         <div class="cards">
             <div class="sale_card">
@@ -219,7 +221,7 @@
             </div>
         </div>
     </div>
-    <div class="section">
+    <div class="section" id="manage_book">
         <img src="img/Бронь тура.png">
     </div>
     <div class="section section_feeds">
@@ -277,30 +279,32 @@
             <p class="additional_hint_text">Нажимая на кнопку, вы принимаете наше <a href="#">Соглашение о
                     конфиденциальности</a> </p>
         </div>
-        <footer>
-            <div class="subscribe_left_section">
-                <a href="#" class="footer_menu_item footer_menu_selected_item">Главная страница</p>
-                    <a href="#" class="footer_menu_item">Акции</p>
-                        <a href="tours.html" class="footer_menu_item">Поиск</p>
-                            <a href="#" class="footer_menu_item">Управление бронированием</p>
-            </div>
-            <div class="subscribe_right_section footer_right_section">
-                <img src="img/logo.png" class="footer_logo">
-                <div class="email_form">
-                    <img src="img/icons/clock.png">
-                    <div class="footer_text_number">
-                        <p class="footer_number">“8 (800) 555-33-10”</p>
-                        <p class="footer_text">БЕСПЛАТНЫЙ ЗВОНОК 24 часа</p>
-                    </div>
-                </div>
-                <p class="footer_text">
-                    Tourist pro - это туристическая компания нового поколения. Мы используем все доступные сегодня
-                    технологии, чтобы сделать выбор, оплату и бронирование Вашего путешествия максимально удобными и
-                    приятными.
-                </p>
-            </div>
-        </footer>
     </div>
+
+    <footer>
+        <div class="subscribe_left_section">
+            <a href="index.html" class="footer_menu_item footer_menu_selected_item">Главная страница</a>
+            <a href="#sales" class="footer_menu_item">Акции</a>
+            <a href="#search" class="footer_menu_item">Поиск</a>
+            <a href="#manage_book" class="footer_menu_item">Управление бронированием</a>
+        </div>
+        <div class="footer_right_section">
+            <img src="img/logo.png" class="footer_logo">
+            <div class="email_form">
+                <img src="img/icons/clock.png">
+                <div class="footer_text_number">
+                    <p class="footer_number">“8 (800) 555-33-10”</p>
+                    <p class="footer_text">БЕСПЛАТНЫЙ ЗВОНОК 24 часа</p>
+                </div>
+            </div>
+            <p class="footer_text_end">
+                Tourist pro - это туристическая компания нового поколения. Мы используем все доступные сегодня
+                технологии, чтобы сделать выбор, оплату и бронирование Вашего путешествия максимально удобными и
+                приятными.
+            </p>
+        </div>
+    </footer>
+
 </body>
 
 </html>

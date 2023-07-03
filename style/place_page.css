@@ -1,0 +1,205 @@
+.cases {
+    margin-top: 50px;
+}
+
+.case_info {
+    width: 60%;
+}
+
+.additional_info {
+    background-color: #C0F5EE;
+    float: right;
+    width: 30%;
+    height: 325px;
+    margin-right: -30px;
+    margin-top: -100px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.additional_info_text {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.place_price {
+    float: right;
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.place_price_container {
+    height: auto;
+}
+
+.add_title {
+    color: #000;
+    text-align: left;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.section_add {
+    margin: 30px 120px;
+    width: 80%;
+}
+
+.checkers_add {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.checker_add {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.checker_add p {
+    color: #000;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.checker_add input {
+    width: 48px;
+}
+
+.subscribe_form {
+    width: 100%;
+    margin-top: 0;
+}
+
+.subscribe_form input {
+    width: 90%;
+}
+
+.hint_search_order_text {
+    height: 47px;
+    color: #090914;
+    margin-top: 40px;
+    font-size: 36px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.section_order {
+    margin: 0 120px;
+}
+
+.final_price {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 40px;
+    color: #090914;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.book_contacs {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.super_form {
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 40%;
+}
+
+.to_book_btn {
+    margin-left: 15px;
+    text-decoration: none;
+    border-radius: 9px;
+    background: #2563EB;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+    display: flex;
+    width: fit-content;
+    height: 54.947px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.hint_name_email_text {
+    color: #090914;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 24px;
+
+}
+
+.input_order {
+    
+    width: 100%;
+    height: 54.947px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #CBD5E1;
+    background: #F8FAFC;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.mini_footer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.mini_footer img {
+    width: 61px;
+    margin-right: 20px;
+}
+
+.mini_footer p {
+    width: 50%;
+    text-align: left;
+}
+
+.order_list {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 50%
+}

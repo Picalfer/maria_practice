@@ -270,7 +270,7 @@ header {
 }
 
 .manage_book_img {
-    width: 100%;
+    width: 70%;
 }
 
 .stars {
@@ -588,7 +588,6 @@ footer {
     font-style: normal;
     font-weight: 400;
     text-align: center;
-
     line-height: 30px;
     width: 50%;
 }

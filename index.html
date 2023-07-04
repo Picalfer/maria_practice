@@ -6,6 +6,7 @@
     <link type="image/icon type" rel="icon" href="img/icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/calend.css">
     <title>Tourist pro</title>
 </head>
 
@@ -48,6 +49,8 @@
             </div>
         </div>
     </div>
+
+
     <div class="tours" id="search">
         <div class="city">
             <p>Город вылета: <a href="#">Омск</a></p>
@@ -65,6 +68,17 @@
                 <div>
                     <p class="hint_text">дата вылета и обратно</p>
                     <p class="city_text">с 26.06.2023 по 30.06.2023</p>
+                    <div class="section-calend">
+                        <div class="menu-block">
+                            <nav class="menu-nav">
+                                <div class="calendar-wrapper">
+                                    <button id="btnPrev" type="button">Предыдущий</button>
+                                    <button id="btnNext" type="button">Следующий</button>
+                                    <div id="divCal"></div>
+                            </nav> <a href="#" class="menu-btn"> <span></span> </a>
+                        </div>
+                    </div>
+                    <script type="text/javascript" src="js/calend.js"></script>
                 </div>
             </div>
             <div class="bar_info_item">
@@ -304,7 +318,6 @@
             </p>
         </div>
     </footer>
-
 </body>
 
 </html>
